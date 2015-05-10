@@ -1,0 +1,24 @@
+body {
+	color:white; 
+	background: url("../images/octocat.jpg") no-repeat;
+}
+
+div#container {
+	background-color: black;
+	width: 420px; 
+	float: right;
+	padding: 15px;
+	border-bottom-left-radius: 20px;
+    }
+
+	h2 {
+	background-color: #35C0F2;
+	color: black;
+	border-radius: 5px;
+	}
+
+	a {
+		color: #35C0F2;
+		text-decoration: none;
+	}
+
