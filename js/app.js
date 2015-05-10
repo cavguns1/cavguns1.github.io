@@ -1,6 +1,6 @@
 var backgrounds = [
-    "url(https://octodex.github.com/images/privateinvestocat.jpg)",
-    "url(https://octodex.github.com/images/jetpacktocat.png)",
+    "url(http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_900,w_1200/njf4aaxacxezk49ooyw2.png)",
+    "url(http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_900,w_1200/sagxt7wwlqk6cf9j3jhg.jpg)",
     "url(https://octodex.github.com/images/luchadortocat.png)"
 ], 
     index = 0;
