@@ -1,6 +1,7 @@
 body {
 	color:white; 
-	background: url("../images/wexuslogo.jpg") no-repeat;
+	background: url("../images/farmer-ipad.jpg") no-repeat;
+	background-size: cover;
 }
 
 div#container {
