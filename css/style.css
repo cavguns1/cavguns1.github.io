@@ -1,7 +1,7 @@
 body {
 	color:white; 
 	/*background: url("../images/wexuslogo.jpg") no-repeat;*/
-	background: url("../images/farmer-ipad.jpg") no-repeat center center;
+	background: url("../images/tractor.jpg") no-repeat center center;
 	background-size: cover;	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -12,9 +12,9 @@ body {
 div#container {
 	background-color: black;
 	width: 420px; 
-	float: right;
+	float: left;
 	padding: 15px;
-	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
     }
 
 	h2 {
