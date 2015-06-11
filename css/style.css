@@ -1,12 +1,12 @@
 body {
 	color:white; 
-	background: url("../images/octocat.jpg") no-repeat;
+	background: url("../images/tractor.jpg") no-repeat;
 }
 
 div#container {
 	background-color: black;
 	width: 420px; 
-	float: right;
+	float: left;
 	padding: 15px;
 	border-bottom-left-radius: 20px;
     }
