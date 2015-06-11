@@ -1,0 +1,161 @@
+body {
+  color:#14589A;
+  background: url("../images/sptrfa_oldclassroom_blackandwhite.jpg") no-repeat center center;
+  background-attachment:fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-size:16px;
+  font-family:'helvetica', sans-serif;
+  font-weight:100;
+}
+
+h1 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2;
+}
+
+h2 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  line-height: 2;
+  padding: .8em 0
+}
+
+h3 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  line-height: 2;
+  padding: .8em 0
+}
+
+nav {
+  background-color: #aaaaaa;
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+a {
+  background-color: #ff7900;
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 30px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+a:hover {
+  background-color: #14589A;
+}
+
+#testimonial {
+  background:rgba(0,0,0,.5);
+}
+blockquote {
+  color: rgba(255,255,255,1);
+  font-family: 'helvetica', sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.45;
+  margin: 0.25em auto;
+  padding:1em;
+  position: relative;
+  text-align:justify;
+  width: 33.33em;
+}
+blockquote:before {
+  color: rgba(255,255,255,.54);
+  content: "\201C";
+  display: block;
+  font-size: 3.33em;
+  position: absolute;left: -20px;top: -20px;
+}
+blockquote cite {
+  color: rgba(255,255,255,.54);
+  display: block;
+  float:right;
+  font-size: 1.25em;
+  font-weight:100;
+  margin-top: .33em;
+}
+ 
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+.clearfix:after { 
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+h4 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  line-height: 2;
+}
+
+p {
+  font-family: helvetica, sans-serif
+  font-size: 20px;
+  color:#14589A;
+  line-height: 1.0em; 
+}
+
+span { 
+font-variant: small-caps;
+font-family: helvetica, sans-serif
+letter-spacing: .5em;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.article {
+  width: 180px;
+  padding: 10px;
+  margin: 0 10px;
+  float: left;
+}
+
+#article1 {
+  background-color: #5F92B9;
+}
+
+#article2 {
+  background-color: #5F92B9;
+}
+
+#article3 {
+  background-color: #5F92B9;
+}
+
+#article4 {
+  background-color: #5F92B9;
+}
+
+article:hover {
+  background-color: #14589A;
+}
