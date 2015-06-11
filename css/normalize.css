@@ -80,7 +80,7 @@ button,
 input,
 select,
 textarea {
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif;
 }
 
 /*
@@ -125,37 +125,31 @@ a:active {
  */
 
 h1 {
-    font-family: 'Raleway', sans-serif;
     font-size: 2em;
     margin: 0.67em 0;
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
     margin: 0.83em 0;
 }
 
 h3 {
-    font-family: 'Raleway', sans-serif;
     font-size: 1.17em;
     margin: 1em 0;
 }
 
 h4 {
-    font-family: 'Raleway', sans-serif;
     font-size: 1em;
     margin: 1.33em 0;
 }
 
 h5 {
-    font-family: 'Raleway', sans-serif;
     font-size: 0.83em;
     margin: 1.67em 0;
 }
 
 h6 {
-    font-family: 'Raleway', sans-serif;
     font-size: 0.75em;
     margin: 2.33em 0;
 }
