@@ -11,18 +11,19 @@ body {
 
 h1 {
   font-family:'Carrois Gothic SC', sans-serif;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
+  color: white;
   line-height: 2;
 }
 
 h2 {
   font-family:'Carrois Gothic SC', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
-  color: black;
+  color: white;
   line-height: 2;
   padding: .8em 0
 }
@@ -30,26 +31,47 @@ h2 {
 h3 {
   font-family:'Carrois Gothic SC', sans-serif;
   font-style: italic;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
-  color: black;
+  color: white;
   line-height: 2;
   padding: .8em 0
 }
 
-nav {
-  background-color: #aaaaaa;
-  font-family: 'Carrois Gothic SC', sans-serif;
+h4 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  line-height: 2;
 }
 
-a {
-  background-color: #ff7900;
+h5 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #14589A;
+  line-height: 2;
+}
+
+nav {
+  background-color: #5F92B9;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 2.0em; 
+  text-align: center; 
+}
+
+nav a {
+  background-color: #5F92B9;
   color: white;
   text-decoration: none;
-  display: block;
-  float: left;
+  display: inline;
   padding: 30px;
+}
+
+nav a:hover {
+  background-color: #14589A;
 }
 
 .clearfix:after {
@@ -59,10 +81,6 @@ a {
   clear: both;
   height: 0;
   font-size: 0;
-}
-
-a:hover {
-  background-color: #14589A;
 }
 
 #testimonial {
@@ -107,24 +125,17 @@ blockquote cite:before {
   clear: both;
 }
 
-h4 {
-  font-family:'Carrois Gothic SC', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  line-height: 2;
-}
-
 p {
-  font-family: helvetica, sans-serif
+  font-family: helvetica, sans-serif;
   font-size: 20px;
-  color:#14589A;
+  color:white;
   line-height: 1.0em; 
+  letter-spacing: .1em
 }
 
 span { 
 font-variant: small-caps;
-font-family: helvetica, sans-serif
+font-family: helvetica, sans-serif;
 letter-spacing: .5em;
 }
 
@@ -133,29 +144,42 @@ letter-spacing: .5em;
   margin: 0 auto;
 }
 
-.article {
+.column {
   width: 180px;
   padding: 10px;
   margin: 0 10px;
   float: left;
-}
-
-#article1 {
   background-color: #5F92B9;
 }
 
-#article2 {
-  background-color: #5F92B9;
-}
-
-#article3 {
-  background-color: #5F92B9;
-}
-
-#article4 {
-  background-color: #5F92B9;
-}
-
-article:hover {
+.column:hover {
   background-color: #14589A;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+footer {
+  background-color: #cccccc;
+  text-align: center;
+  padding: 20px;
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  line-height: 2;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
