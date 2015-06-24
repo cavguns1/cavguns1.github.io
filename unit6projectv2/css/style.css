@@ -1,0 +1,234 @@
+body {
+  color:#14589A;
+  background: url("../images/sptrfa_oldclassroom_blackandwhite.jpg") no-repeat center center;
+  background-attachment:fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-size:16px;
+  font-family:'helvetica', sans-serif;
+  font-weight:100;
+}
+
+#nav-header {
+  background: #252525;
+  width: 100%;
+  position: fixed;
+  zoom: 1;
+  top: 0;
+  left: 0;
+  z-index: 204000000;
+  height: 48px;
+  border-bottom: 3px solid #d80109;
+}
+
+#headerlogo-us {
+  width: 80px;
+  height: 20px;
+  background: url('images/sptrfa_logo.jpg') no-repeat 0 10px;
+  background-size: 50%;
+  float: left;
+  color: transparent;
+  background-position: 0 10px;
+  background-repeat: no-repeat;
+}
+
+.nav-more .hicons.follow a {
+  display: inline-block;
+  padding: 0 6px;
+  border: 0;
+  background: 0;
+}
+
+.nav-more .hicons a {
+  line-height: 60px;
+  padding: 0 21.6px;
+}
+
+.nav-more .hicons a {
+  font-size: 17px;
+  padding: 0 12px;
+  display: block;
+  line-height: 45px;
+  vertical-align: middle;
+  text-align: center;
+  background: #252525;
+  border-left: 1px solid #363636;
+  color: #e2e2e2;
+}
+
+h1 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  line-height: 2;
+}
+
+h2 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  line-height: 2;
+  padding: .8em 0
+}
+
+h3 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  line-height: 2;
+  padding: .8em 0
+}
+
+h4 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 25px;
+  word-spacing: 1; 
+  color: white;
+  line-height: 2;
+  text-decoration: none;
+}
+
+h5 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #14589A;
+  line-height: 2;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #5F92B9;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 2.0em; 
+  text-align: center; 
+}
+
+nav a {
+  background-color: #5F92B9;
+  color: white;
+  text-decoration: none;
+  display: inline;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: #14589A;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+#testimonial {
+  background:rgba(0,0,0,.5);
+}
+blockquote {
+  color: rgba(255,255,255,1);
+  font-family: 'helvetica', sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.45;
+  margin: 0.25em auto;
+  padding:1em;
+  position: relative;
+  text-align:justify;
+  width: 33.33em;
+}
+blockquote:before {
+  color: rgba(255,255,255,.54);
+  content: "\201C";
+  display: block;
+  font-size: 3.33em;
+  position: absolute;left: -20px;top: -20px;
+}
+blockquote cite {
+  color: rgba(255,255,255,.54);
+  display: block;
+  float:right;
+  font-size: 1.25em;
+  font-weight:100;
+  margin-top: .33em;
+}
+ 
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+.clearfix:after { 
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+p {
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  color:white;
+  line-height: 1.0em; 
+  letter-spacing: .1em
+}
+
+span { 
+font-variant: small-caps;
+font-family: helvetica, sans-serif;
+letter-spacing: .5em;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.column {
+  width: 12em; 
+  padding: 10px;
+  margin: 0 10px;
+  float: left;
+  background-color: #5F92B9;
+}
+
+.column:hover {
+  background-color: #14589A;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+footer {
+  background-color: #cccccc;
+  text-align: center;
+  padding: 20px;
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  line-height: 2;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
