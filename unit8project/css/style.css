@@ -121,7 +121,7 @@ blockquote {
   padding:1.5em;
   position: relative;
   text-align:justify;
-  width: 33.33em;
+  width: 80%;
 }
 blockquote:before {
   color: rgba(255,255,255,.54);
