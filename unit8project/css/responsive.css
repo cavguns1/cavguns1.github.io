@@ -1,21 +1,21 @@
 @media only screen and (min-width:1261px) and (max-width:1380px) {
-  section#splash div {
+  section#nav div {
     padding:15em 0 0 5em;
   }
 }
 @media only screen and (min-width:1045px) and (max-width:1260px) {
-  section#splash div {
+  section#nav div {
     padding:15em 0 0 1em;
   }
 }
 @media only screen and (min-width:962px) and (max-width:1044px) {
-  section#splash div {
+  section#nav div {
     padding:15em 0 0 1em;
   }
   h1 {
     font-size:5em;
   }
-  .columns {
+  .column {
     margin-bottom:5em;
     min-height:18em;
     padding:0 2em;
@@ -31,13 +31,13 @@
   }
 }
 @media only screen and (min-width:700px) and (max-width:961px) {
-  section#splash div {
+  section#nav div {
     padding:15em 0 0 1em;
   }
   h1 {
     font-size:5em;
   }
-  .columns {
+  .column {
     margin-bottom:5em;
     min-height:18em;
     padding:0 2em;
@@ -51,7 +51,7 @@
   #video>div {
     width:50%;
   }
-  section#cast .players {
+  section#farmer {
     float:none;
     margin:1em auto;
     text-align:left;
@@ -66,15 +66,18 @@
     left:10px;
     top:10px;
   }
+   img {
+    width: 320px; 
+  }
 }
 @media only screen and (max-width:699px) {
-  section#splash div {
+  section#nav div {
     padding:15em 0 0 1em;
   }
   h1 {
     font-size:5em;
   }
-  .columns {
+  .column {
     float:none;
     margin:0 auto 5em;
     min-height:18em;
@@ -89,7 +92,7 @@
   #video>div {
     width:100%;
   }
-  section#cast .players {
+  section#farmer .farmer {
     float:none;
     margin:1em auto;
     text-align:left;
@@ -104,5 +107,8 @@
     position:absolute;
     left:10px;
     top:10px;
+  }
+   img {
+    width: 230px;
   }
 }

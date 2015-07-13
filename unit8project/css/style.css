@@ -25,7 +25,7 @@ h2 {
   text-align: center;
   color: black;
   line-height: 1.2;
-  padding: .8em 0
+  padding: .8em 0;
 }
 
 h4 {
@@ -44,6 +44,22 @@ h5 {
   line-height: 2;
 }
 
+#headerlogo-us img {
+  width: 100px;
+  height: 100px;
+}
+
+#farmer img {
+  width: 95%;
+  height: 95%;
+}
+
+section#nav-header {
+  width: 70%;
+  background-color: #5F92B9;
+  text-align: center; 
+}
+
 section#nav {
   background-color: #5F92B9;
   font-family: 'Carrois Gothic SC', sans-serif;
@@ -56,7 +72,7 @@ section#nav a {
   color: white;
   text-decoration: none;
   display: inline;
-  padding: 10px;
+  padding: 20px;
 }
 
 section#nav a:hover {
@@ -79,6 +95,7 @@ section#farmer div {
   margin:0 auto;
   max-width:75em;
 }
+
 section#farmer .farmer {
   background:rgba(3,169,244,1);
   border-radius:.5em;
