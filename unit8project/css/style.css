@@ -14,7 +14,8 @@ h1 {
   font-weight: bold;
   text-align: center;
   color: black;
-  line-height: 1.2;
+  line-height: 1.1;
+  width: 95%;
 }
 h2 {
   font-family:'Carrois Gothic SC', sans-serif;
@@ -22,8 +23,9 @@ h2 {
   font-size: 1.5em;
   text-align: center;
   color: black;
-  line-height: 1.2;
+  line-height: 0.9;
   padding: .8em 0;
+  width: 95%;
 }
 h3 {
   font-family:'Carrois Gothic SC', sans-serif;
@@ -52,14 +54,15 @@ section#nav-header {
   text-align:center; 
 }
 section#nav {
-  color: #14589A;
-  font-family: 'Carrois Gothic SC', sans-serif;
-  font-size: 1.3em; 
-  text-align: center; 
+  font-family: helvetica, sans-serif;
+  font-size: 1.2em;
+  font color: white;
+  line-height: 2.0em; 
+  letter-spacing: 2.5em 
   width: 95%;
 }
 section#nav a:hover {
-  background-color: #14589A;
+  background-color: rgba(129,212,250,.8);
 }
 .clearfix:after {
   visibility: hidden;
@@ -138,18 +141,10 @@ footer {
   background-color: #cccccc;
   margin:0 auto;
   text-align: center;
-  padding: 1.5em;
+  padding: 2.5em;
   font-family: helvetica, sans-serif;
   font-size: 1.0em;
   color:white;
-  line-height: 1.0em; 
-  letter-spacing: .1em
-}
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
+  line-height: 4.0em; 
+  letter-spacing: 1.0em
 }
