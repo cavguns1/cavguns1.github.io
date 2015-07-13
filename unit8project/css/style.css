@@ -11,7 +11,7 @@ body {
 
 h1 {
   font-family:'Carrois Gothic SC', sans-serif;
-  font-size: 35px;
+  font-size: 2.0em;
   font-weight: bold;
   text-align: center;
   color: black;
@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-family:'Carrois Gothic SC', sans-serif;
   font-style: italic;
-  font-size: 30px;
+  font-size: 1.5em;
   text-align: center;
   color: black;
   line-height: 1.2;
@@ -30,7 +30,7 @@ h2 {
 
 h3 {
   font-family:'Carrois Gothic SC', sans-serif;
-  font-size: 16px;
+  font-size: 1.0em;
   font-weight: bold;
   color: white;
   line-height: 2;
@@ -47,25 +47,16 @@ h3 {
 }
 
 section#nav-header {
-  width: 70%;
-  background-color: #5F92B9;
-  text-align: center; 
+  width: 80%;
+  text-align:center; 
 }
 
 section#nav {
-  background-color: #5F92B9;
+  color: rgba(255,255,255,.54);
   font-family: 'Carrois Gothic SC', sans-serif;
-  font-size: 1.5em; 
+  font-size: 1.3em; 
   text-align: center; 
   width: 95%;
-}
-
-section#nav a {
-  background-color: #5F92B9;
-  color: white;
-  text-decoration: none;
-  display: inline;
-  padding: 20px;
 }
 
 section#nav a:hover {
@@ -87,18 +78,6 @@ section#farmer {
 section#farmer div {
   margin:0 auto;
   max-width:75em;
-}
-
-section#farmer .farmer {
-  background:rgba(3,169,244,1);
-  border-radius:.5em;
-  color:#fff;
-  float:left;
-  margin:.5%;
-  min-height:16em;
-  padding:1em 2em 1em 1em;
-  text-align:justify;
-  width:95%;
 }
 
 section#testimonial {
@@ -149,12 +128,6 @@ p {
   color:white;
   line-height: 1.0em; 
   letter-spacing: .1em
-}
-
-span { 
-font-variant: small-caps;
-font-family: helvetica, sans-serif;
-letter-spacing: .5em;
 }
 
 #container {

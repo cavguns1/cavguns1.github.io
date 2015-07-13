@@ -37,6 +37,10 @@
   h1 {
     font-size:5em;
   }
+  section#nav {
+    float:none;
+    width: auto;
+  }
   .column {
     margin-bottom:5em;
     min-height:18em;
@@ -76,6 +80,10 @@
   }
   h1 {
     font-size:5em;
+  }
+    section#nav {
+    float:none;
+    width: auto;
   }
   .column {
     float:none;
