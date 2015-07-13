@@ -1,0 +1,193 @@
+body {
+  color:#14589A;
+  background: url("../images/tractor.jpg") no-repeat center center;
+  background-attachment:fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-size:16px;
+  font-family:'helvetica', sans-serif;
+  font-weight:100;
+}
+
+h1 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  line-height: 1.2;
+  padding: .8em 0
+}
+
+h4 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  line-height: 2;
+}
+
+h5 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #14589A;
+  line-height: 2;
+}
+
+section#nav {
+  background-color: #5F92B9;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 1.5em; 
+  text-align: center; 
+}
+
+section#nav a {
+  background-color: #5F92B9;
+  color: white;
+  text-decoration: none;
+  display: inline;
+  padding: 10px;
+}
+
+section#nav a:hover {
+  background-color: #14589A;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+section#farmer {
+  background:rgba(129,212,250,.8);
+}
+section#farmer div {
+  margin:0 auto;
+  max-width:75em;
+}
+section#farmer .farmer {
+  background:rgba(3,169,244,1);
+  border-radius:.5em;
+  color:#fff;
+  float:left;
+  margin:.5%;
+  min-height:16em;
+  padding:1em 2em 1em 1em;
+  text-align:justify;
+  width:49%;
+}
+
+section#testimonial {
+  background:rgba(0,0,0,.5);
+}
+blockquote {
+  color: rgba(255,255,255,1);
+  font-family: 'helvetica', sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.45;
+  margin: 0.25em auto;
+  padding:1.5em;
+  position: relative;
+  text-align:justify;
+  width: 33.33em;
+}
+blockquote:before {
+  color: rgba(255,255,255,.54);
+  content: "\201C";
+  display: block;
+  font-size: 3.3em;
+  position: absolute;left: -20px;top: -20px;
+}
+blockquote cite {
+  color: rgba(255,255,255,.54);
+  display: block;
+  float:right;
+  font-size: 1.1em;
+  font-weight:100;
+  margin-top: .33em;
+}
+ 
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+.clearfix:after { 
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+p {
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  color:white;
+  line-height: 1.0em; 
+  letter-spacing: .1em
+}
+
+span { 
+font-variant: small-caps;
+font-family: helvetica, sans-serif;
+letter-spacing: .5em;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+section#column {
+  width: 180px;
+  padding: 10px;
+  margin: 0 10px;
+  float: left;
+  background-color: #5F92B9;
+}
+
+section#column:hover {
+  background-color: #14589A;
+}
+
+section#clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+footer {
+  background-color: #cccccc;
+  text-align: center;
+  padding: 20px;
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  line-height: 2;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}

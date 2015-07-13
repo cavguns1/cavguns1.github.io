@@ -1,6 +1,9 @@
 body {
 	color:white; 
-	background: url("../images/tractor.jpg") no-repeat;
+	background-image: url("../images/tractor.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
 }
 
 div#container {
@@ -31,3 +34,9 @@ div#container {
 		text-decoration: none;
 	}
 
+.article {
+ width: 280px;
+ padding: 10px;
+ margin: 0 10px;
+ float: left;
+ }
