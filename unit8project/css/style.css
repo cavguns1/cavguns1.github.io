@@ -8,16 +8,14 @@ body {
   font-family:'helvetica', sans-serif;
   font-weight:100;
 }
-
 h1 {
   font-family:'Carrois Gothic SC', sans-serif;
-  font-size: 2.0em;
+  font-size: 150%;
   font-weight: bold;
   text-align: center;
   color: black;
   line-height: 1.2;
 }
-
 h2 {
   font-family:'Carrois Gothic SC', sans-serif;
   font-style: italic;
@@ -27,42 +25,42 @@ h2 {
   line-height: 1.2;
   padding: .8em 0;
 }
-
 h3 {
   font-family:'Carrois Gothic SC', sans-serif;
-  font-size: 1.0em;
+  font-size: 1.2em;
   font-weight: bold;
   color: white;
   line-height: 2;
 }
-
+p {
+  font-family: helvetica, sans-serif;
+  font-size: 1.0em;
+  color:white;
+  line-height: 1.0em; 
+  letter-spacing: .1em
+}
 #headerlogo-us img {
   width: 20%;
   height: 20%;
 }
-
 #farmer img {
-  width: 95%;
-  height: 95%;
+  width: 85%;
+  height: 85%;
 }
-
 section#nav-header {
-  width: 80%;
+  width: 100%;
   text-align:center; 
 }
-
 section#nav {
-  color: rgba(255,255,255,.54);
+  color: #14589A;
   font-family: 'Carrois Gothic SC', sans-serif;
   font-size: 1.3em; 
   text-align: center; 
   width: 95%;
 }
-
 section#nav a:hover {
   background-color: #14589A;
 }
-
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -71,7 +69,6 @@ section#nav a:hover {
   height: 0;
   font-size: 0;
 }
-
 section#farmer {
   background:rgba(129,212,250,.8);
 }
@@ -79,7 +76,6 @@ section#farmer div {
   margin:0 auto;
   max-width:75em;
 }
-
 section#testimonial {
   background:rgba(0,0,0,.5);
 }
@@ -89,7 +85,7 @@ blockquote {
   font-size: 1.5em;
   font-style: italic;
   line-height: 1.45;
-  margin: 0.25em auto;
+  margin: 0em auto;
   padding:1.5em;
   position: relative;
   text-align:justify;
@@ -110,7 +106,6 @@ blockquote cite {
   font-weight:100;
   margin-top: .33em;
 }
- 
 blockquote cite:before {
   content: "\2014 \2009";
 }
@@ -121,32 +116,16 @@ blockquote cite:before {
   height: 0; 
   clear: both;
 }
-
-p {
-  font-family: helvetica, sans-serif;
-  font-size: 20px;
-  color:white;
-  line-height: 1.0em; 
-  letter-spacing: .1em
-}
-
-#container {
-  width: 960px;
-  margin: 0 auto;
-}
-
 section#column {
-  width: 90%;
+  margin:0 auto;
+  max-width:75em;
   padding: 10px;
-  margin: 0 10px;
   float: left;
-  background-color: #5F92B9;
+  background:rgba(129,212,250,.8);
 }
-
 section#column:hover {
-  background-color: #14589A;
+  background: rgba(0,0,0,.5);
 }
-
 section#clearfix:after {
   visibility: hidden;
   display: block;
@@ -155,19 +134,17 @@ section#clearfix:after {
   height: 0;
   font-size: 0;
 }
-
 footer {
   background-color: #cccccc;
+  margin:0 auto;
   text-align: center;
   padding: 1.5em;
-  font-family:'Carrois Gothic SC', sans-serif;
-  font-size: 10px;
-  color:black;
-  text-align: center;
-  line-height: 2;
-  width: 90%;
+  font-family: helvetica, sans-serif;
+  font-size: 1.0em;
+  color:white;
+  line-height: 1.0em; 
+  letter-spacing: .1em
 }
-
 .clearfix:after {
   visibility: hidden;
   display: block;
