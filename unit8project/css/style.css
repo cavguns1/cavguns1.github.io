@@ -11,7 +11,7 @@ body {
 
 h1 {
   font-family:'Carrois Gothic SC', sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   text-align: center;
   color: black;
@@ -28,7 +28,7 @@ h2 {
   padding: .8em 0;
 }
 
-h4 {
+h3 {
   font-family:'Carrois Gothic SC', sans-serif;
   font-size: 25px;
   font-weight: bold;
@@ -36,17 +36,9 @@ h4 {
   line-height: 2;
 }
 
-h5 {
-  font-family:'Carrois Gothic SC', sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  color: #14589A;
-  line-height: 2;
-}
-
 #headerlogo-us img {
-  width: 100px;
-  height: 100px;
+  width: 20%;
+  height: 20%;
 }
 
 #farmer img {
@@ -65,6 +57,7 @@ section#nav {
   font-family: 'Carrois Gothic SC', sans-serif;
   font-size: 1.5em; 
   text-align: center; 
+  width: 95%;
 }
 
 section#nav a {
@@ -170,7 +163,7 @@ letter-spacing: .5em;
 }
 
 section#column {
-  width: 180px;
+  width: 90%;
   padding: 10px;
   margin: 0 10px;
   float: left;
@@ -193,11 +186,13 @@ section#clearfix:after {
 footer {
   background-color: #cccccc;
   text-align: center;
-  padding: 20px;
+  padding: 1.5em;
   font-family:'Carrois Gothic SC', sans-serif;
   font-size: 10px;
+  color:black;
   text-align: center;
   line-height: 2;
+  width: 90%;
 }
 
 .clearfix:after {
