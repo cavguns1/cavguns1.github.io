@@ -1,0 +1,150 @@
+body {
+  color:#14589A;
+  background: url("../images/tractor.jpg") no-repeat center center;
+  background-attachment:fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-size:16px;
+  font-family:'helvetica', sans-serif;
+  font-weight:100;
+}
+h1 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  line-height: 1.1;
+  width: 95%;
+}
+h2 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+  line-height: 0.9;
+  padding: .8em 0;
+  width: 95%;
+}
+h3 {
+  font-family:'Carrois Gothic SC', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  line-height: 2;
+}
+p {
+  font-family: helvetica, sans-serif;
+  font-size: 1.0em;
+  color:white;
+  line-height: 1.0em; 
+  letter-spacing: .1em
+}
+#headerlogo-us img {
+  width: 20%;
+  height: 20%;
+}
+#farmer img {
+  width: 85%;
+  height: 85%;
+}
+section#nav-header {
+  width: 100%;
+  text-align:center; 
+}
+section#nav {
+  font-family: helvetica, sans-serif;
+  font-size: 1.2em;
+  font color: white;
+  line-height: 2.0em; 
+  letter-spacing: 2.5em 
+  width: 95%;
+}
+section#nav a:hover {
+  background-color: rgba(129,212,250,.8);
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+section#farmer {
+  background:rgba(129,212,250,.8);
+}
+section#farmer div {
+  margin:0 auto;
+  max-width:75em;
+}
+section#testimonial {
+  background:rgba(0,0,0,.5);
+}
+blockquote {
+  color: rgba(255,255,255,1);
+  font-family: 'helvetica', sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.45;
+  margin: 0em auto;
+  padding:1.5em;
+  position: relative;
+  text-align:justify;
+  width: 80%;
+}
+blockquote:before {
+  color: rgba(255,255,255,.54);
+  content: "\201C";
+  display: block;
+  font-size: 3.3em;
+  position: absolute;left: -20px;top: -20px;
+}
+blockquote cite {
+  color: rgba(255,255,255,.54);
+  display: block;
+  float:right;
+  font-size: 1.1em;
+  font-weight:100;
+  margin-top: .33em;
+}
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+.clearfix:after { 
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+section#column {
+  margin:0 auto;
+  max-width:75em;
+  padding: 10px;
+  float: left;
+  background:rgba(129,212,250,.8);
+}
+section#column:hover {
+  background: rgba(0,0,0,.5);
+}
+section#clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+footer {
+  background-color: #cccccc;
+  margin:0 auto;
+  text-align: center;
+  padding: 2.5em;
+  font-family: helvetica, sans-serif;
+  font-size: 1.0em;
+  color:white;
+  line-height: 4.0em; 
+  letter-spacing: 1.0em
+}
